@@ -1,0 +1,173 @@
+.head{
+    height: 200px;
+    width: auto;
+    margin: 0 auto;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cb60b3+0,ad1283+50,de47ac+100;Pink+3D */
+    background: #cb60b3; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cb60b3 0%, #ad1283 50%, #de47ac 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #cb60b3 0%,#ad1283 50%,#de47ac 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #cb60b3 0%,#ad1283 50%,#de47ac 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=0 ); /* IE6-9 */
+    color:cornsilk;
+    border-radius: 10px
+}
+.brand{
+    font-size: 50pt;
+    font-weight: bold;
+    text-align: center;
+    left :20%;
+    right: 20%
+}
+.company{
+    font-size: 35pt;
+    font-weight: bold;
+    text-align: center;
+    left: 20%;
+    right: 20%
+}
+.top-footer{
+    font-size: 25pt;
+    text-align: center;
+    margin: 3px;
+    height: auto;
+}
+.top-footer-el{
+    float: left;
+    margin-left: 28%
+}
+.tweet-cont{
+    margin: 20px;
+    border-color: burlywood;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px
+}
+.tweet{
+    background-color:beige;
+    height: 200px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px
+}
+.profile{
+    margin-top: 1%
+}
+.profile-name{
+    margin-top: 6%;
+    color: blueviolet;
+    font-size: 10pt;
+    font-weight: bold
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+.trend{
+    font-size: 18pt;
+    font-weight: bold
+}
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+  text-align: center
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+#loadingProgressG{
+	width:576px;
+	height:45px;
+	overflow:hidden;
+	background-color:rgb(0,0,0);
+	margin:auto;
+	border-radius:23px;
+		-o-border-radius:23px;
+		-ms-border-radius:23px;
+		-webkit-border-radius:23px;
+		-moz-border-radius:23px;
+}
+
+.loadingProgressG{
+	background-color:rgb(255,255,255);
+	margin-top:0;
+	margin-left:-576px;
+	animation-name:bounce_loadingProgressG;
+		-o-animation-name:bounce_loadingProgressG;
+		-ms-animation-name:bounce_loadingProgressG;
+		-webkit-animation-name:bounce_loadingProgressG;
+		-moz-animation-name:bounce_loadingProgressG;
+	animation-duration:2.47s;
+		-o-animation-duration:2.47s;
+		-ms-animation-duration:2.47s;
+		-webkit-animation-duration:2.47s;
+		-moz-animation-duration:2.47s;
+	animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+	animation-timing-function:linear;
+		-o-animation-timing-function:linear;
+		-ms-animation-timing-function:linear;
+		-webkit-animation-timing-function:linear;
+		-moz-animation-timing-function:linear;
+	width:576px;
+	height:45px;
+}
+
+
+
+@keyframes bounce_loadingProgressG{
+	0%{
+		margin-left:-576px;
+	}
+
+	100%{
+		margin-left:576px;
+	}
+}
+
+@-o-keyframes bounce_loadingProgressG{
+	0%{
+		margin-left:-576px;
+	}
+
+	100%{
+		margin-left:576px;
+	}
+}
+
+@-ms-keyframes bounce_loadingProgressG{
+	0%{
+		margin-left:-576px;
+	}
+
+	100%{
+		margin-left:576px;
+	}
+}
+
+@-webkit-keyframes bounce_loadingProgressG{
+	0%{
+		margin-left:-576px;
+	}
+
+	100%{
+		margin-left:576px;
+	}
+}
+
+@-moz-keyframes bounce_loadingProgressG{
+	0%{
+		margin-left:-576px;
+	}
+
+	100%{
+		margin-left:576px;
+	}
+}
